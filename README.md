@@ -26,20 +26,20 @@ The goal is to present a clean, reproducible example of a modern BI workflow bui
 ## 🏗 Architecture
 
 The repository is structured into clear functional layers:
-brewery_bi/
-  ├── README.md
-  ├── database/
-  │   └── brewery.duckdb
-  ├── generator/
-  │   ├── main.py
-  │   ├── create_dimdate_view.py
-  │   ├── create_mart_monthly.py
-  │   └── sql/
-  │       ├── create_dimdate_view.sql
-  │       └── mart_margin_month.sql
-  ├── power_bi/
-  │   └── Brewery_report.pbix
-  └── screenshots/
+- brewery_bi/
+  - README.md
+  - database/
+    - brewery.duckdb
+  - generator/
+    - main.py
+    - create_dimdate_view.py
+    - create_mart_monthly.py
+    - sql/
+      - create_dimdate_view.sql
+      - mart_margin_month.sql
+  - power_bi/
+    - Brewery_report.pbix
+  - screenshots/
 
 **Layer Responsibilities**
 
